@@ -1,0 +1,11 @@
+<resources>
+    <style name="Theme.TickExp" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">#0E0E0E</item>
+        <item name="windowSplashScreenAnimatedIcon">@mipmap/ic_launcher</item>
+        <item name="postSplashScreenTheme">@style/Theme.TickExp.Main</item>
+    </style>
+
+    <style name="Theme.TickExp.Main" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">#C084FC</item>
+    </style>
+</resources>

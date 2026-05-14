@@ -1,0 +1,26 @@
+# Android Studio / IntelliJ
+.idea/
+*.iml
+.gradle/
+build/
+captures/
+.externalNativeBuild/
+.cxx/
+local.properties
+.DS_Store
+
+# Android App
+app/build/
+*.apk
+*.aar
+*.jks
+
+# Google Services
+google-services.json
+
+# Local config
+*.properties
+!gradle-wrapper.properties
+
+# Secrets
+secrets.properties
